@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "My personal cli for many awesomes",
   "preferGlobal": "true",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "index.js",
   "bin": {
     "shun": "index.js"
