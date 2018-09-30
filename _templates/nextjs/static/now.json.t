@@ -1,5 +1,5 @@
 ---
-to: <%= name %>/now.json
+to: now.json
 ---
 {
   "name": "<%= name %>",

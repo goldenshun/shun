@@ -1,5 +1,5 @@
 ---
-to: <%= name %>/.npmrc
+to: .npmrc
 ---
 package-lock=false
 save-exact=true

@@ -1,5 +1,5 @@
 ---
-to: <%= name %>/package.json
+to: package.json
 ---
 {
   "name": "@goldenshun/<%= name %>",
@@ -28,6 +28,7 @@ to: <%= name %>/package.json
   "devDependencies": {
     "babel-eslint": "8.2.2",
     "eslint": "5.5.0",
+    "eslint-config-airbnb": "17.1.0",
     "eslint-plugin-import": "2.14.0",
     "eslint-plugin-jest": "21.17.0",
     "eslint-plugin-jsx-a11y": "6.1.1",

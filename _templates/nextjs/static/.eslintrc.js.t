@@ -1,5 +1,5 @@
 ---
-to: <%= name %>/.eslintrc.js
+to: .eslintrc.js
 ---
 module.exports = {
   extends: ['airbnb'],

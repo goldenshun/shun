@@ -1,5 +1,5 @@
 ---
-to: <%= name %>/Dockerfile
+to: Dockerfile
 ---
 FROM node:8-alpine
 

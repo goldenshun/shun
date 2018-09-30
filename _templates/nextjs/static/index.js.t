@@ -1,9 +1,8 @@
 ---
-to: <%= name %>/pages/index.js
+to: pages/index.js
 ---
-
 const Index = () => (
-  <div>Welcome to <%= name %></div>
-)
+  <div>Welcome to career-journey-framework</div>
+);
 
 export default Index;

@@ -1,5 +1,5 @@
 ---
-to: <%= name %>/.gitignore
+to: .gitignore
 ---
 .DS_Store
 npm-debug.log*
