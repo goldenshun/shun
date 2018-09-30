@@ -8,10 +8,11 @@ to: package.json
   "private": true,
   "main": "index.js",
   "scripts": {
-    "dev": "next",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint --ext .js ."
+    "dev": "next",
+    "export": "next export",
+    "lint": "eslint --ext .js .",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
