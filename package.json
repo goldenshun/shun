@@ -1,0 +1,29 @@
+{
+  "name": "@goldenshun/shun",
+  "version": "0.0.1",
+  "description": "My personal cli for many awesomes",
+  "preferGlobal": "true",
+  "main": "index.js",
+  "bin": {
+    "shun": "index.js"
+  },
+  "scripts": {
+    "shun": "node index.js",
+    "hygen": "hygen"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldenshun/shun.git"
+  },
+  "author": "Sean Connolly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goldenshun/shun/issues"
+  },
+  "homepage": "https://github.com/goldenshun/shun#readme",
+  "dependencies": {
+    "execa": "^1.0.0",
+    "hygen": "^1.6.2",
+    "inquirer": "^6.2.0"
+  }
+}
