@@ -1,6 +1,6 @@
 {
   "name": "@goldenshun/shun",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "My personal cli for many awesomes",
   "preferGlobal": "true",
   "publishConfig": {
