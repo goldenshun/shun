@@ -2,7 +2,7 @@
 to: pages/index.js
 ---
 const Index = () => (
-  <div>Welcome to career-journey-framework</div>
+  <div>Welcome to <%= name %></div>
 );
 
 export default Index;
