@@ -9,7 +9,7 @@ npm i -g @goldenshun/shun
 ## Generating a NextJS static application
 
 1. Clone/create a new git repository
-2. Run `shun nextjs static` in the root of the repository
+2. Run `shun nextjs static` or `shun nextjs ssr` in the root of the repository
 3. `npm i` to install dependencies
 4. `npm run dev` to make sure it's working
 
