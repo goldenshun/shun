@@ -1,7 +1,7 @@
 ---
 to: Dockerfile
 ---
-FROM node:8-alpine
+FROM node:10-alpine
 
 # Set the working directory and copy over package manager specific files
 WORKDIR /usr/src

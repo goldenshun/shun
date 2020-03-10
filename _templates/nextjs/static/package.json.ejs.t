@@ -22,9 +22,9 @@ to: package.json
   "license": "MIT",
   "homepage": "https://github.com/goldenshun/<%= name %>#readme",
   "dependencies": {
-    "next": "9.0.2",
-    "react": "16.8.6",
-    "react-dom": "16.8.6"
+    "next": "9.3.0",
+    "react": "16.13.0",
+    "react-dom": "16.13.0"
   },
   "devDependencies": {
     "babel-eslint": "8.2.2",
