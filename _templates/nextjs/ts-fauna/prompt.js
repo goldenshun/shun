@@ -14,4 +14,9 @@ module.exports = [
     name: 'description',
     message: 'What is the description for your application?',
   },
+  {
+    type: 'input',
+    name: 'faunaKey',
+    message: 'What is your FaunaDB Admin key?',
+  },
 ];
