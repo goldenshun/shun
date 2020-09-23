@@ -12,7 +12,7 @@ node_modules/
 .next
 
 # Code Gen
-fauna/graphql/gen
+.gen/
 
 # Whatever this is
 .DS_Store

@@ -1,10 +1,14 @@
 ---
-to: schema.gql
+to: fauna/schema.gql
 ---
-type Query {
+# type Query {
 
-}
+# }
 
-type Mutation {
+# type Mutation {
   
+# }
+
+type Example {
+  foo: String!
 }

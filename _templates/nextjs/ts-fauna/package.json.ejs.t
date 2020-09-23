@@ -8,8 +8,14 @@ to: package.json
   "private": true,
   "main": "index.js",
   "scripts": {
+    "prebuild": "npm run build:gql",
     "build": "next build",
+    "build:fauna": "tsc --project tsconfig.fauna.json",
+    "build:gql": "dotenv -c -- graphql-codegen",
+    "predev": "npm run build:gql",
     "dev": "next",
+    "fauna": "npm run build:fauna && fauna-gql",
+    "fauna:override": "npm run build:fauna && fauna-gql --override",
     "lint": "eslint --ext .js .",
     "start": "next start"
   },

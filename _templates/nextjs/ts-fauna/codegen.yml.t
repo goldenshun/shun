@@ -4,14 +4,14 @@ to: codegen.yml
 schema:
   - https://graphql.fauna.com/graphql:
       headers:
-        Authorization: Bearer ${FAUNA_ACCESS_KEY_SCRIPTS}
+        Authorization: Bearer ${FAUNA_ACCESS_KEY_SERVER}
 documents: "{components,lib,pages}/**/*.{ts,tsx}"
 generates:
-  ts/graphql.tsx:
+  ./.gen/graphql.tsx:
     plugins:
       - typescript
       - typescript-operations
       - typescript-react-apollo
-  introspection.json:
+  ./.gen/introspection.json:
     plugins:
       - introspection

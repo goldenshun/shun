@@ -20,9 +20,9 @@ to: tsconfig.json
     "paths": {
       "@components/*": ["components/*"],
       "@lib/*": ["lib/*"],
-      "@ts/*": ["ts/*"]
+      "@gen/*": [".gen/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["./node_modules"]
+  "exclude": ["./node_modules", "./fauna"]
 }
