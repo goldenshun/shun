@@ -6,6 +6,7 @@ import { useEffect } from 'react';
 import Head from 'next/head';
 import { ThemeProvider } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
+import { ThemeProvider as EmotionThemeProvider } from 'emotion-theming';
 import withApollo from "@components/withApollo";
 import theme from "@lib/theme";
 
@@ -23,8 +24,10 @@ function MyApp({ Component, pageProps }: AppProps) {
         <title key="title"><%= name%></title>
       </Head>
       <ThemeProvider theme={theme}>
-        <CssBaseline />
-        <Component {...pageProps} />
+        <EmotionThemeProvider theme={theme}>
+          <CssBaseline />
+          <Component {...pageProps} />
+        </EmotionThemeProvider>
       </ThemeProvider>
     </>
   );
