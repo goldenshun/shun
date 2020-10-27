@@ -17,6 +17,6 @@ module.exports = [
   {
     type: 'input',
     name: 'faunaKey',
-    message: 'What is your FaunaDB Server key?',
+    message: 'What is your FaunaDB Admin key?',
   },
 ];

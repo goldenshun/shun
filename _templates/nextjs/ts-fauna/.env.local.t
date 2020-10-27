@@ -1,4 +1,4 @@
 ---
 to: .env.local
 ---
-FAUNA_ACCESS_KEY_SERVER=<%= faunaKey %>
+FAUNA_ACCESS_KEY_ADMIN=<%= faunaKey %>
