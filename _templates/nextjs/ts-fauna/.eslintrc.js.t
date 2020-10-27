@@ -2,15 +2,13 @@
 to: .eslintrc.js
 ---
 module.exports = {
-    "env": {
-        "browser": true,
-        "commonjs": true,
-        "es2020": true
-    },
-    "extends": "eslint:recommended",
-    "parserOptions": {
-        "ecmaVersion": 11
-    },
-    "rules": {
-    }
+  root: true,
+  extends: [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react-hooks/recommended"
+  ],
+  parser: "@typescript-eslint/parser",
+  plugins: ["@typescript-eslint"],
 };
