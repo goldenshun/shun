@@ -1,5 +1,5 @@
 {
-  "name": "@goldenshun/shun",
+  "name": "@seanconnolly/gen",
   "version": "0.4.3",
   "description": "My personal cli for many awesomes",
   "preferGlobal": "true",
@@ -8,22 +8,22 @@
   },
   "main": "index.js",
   "bin": {
-    "shun": "index.js"
+    "gen": "index.js"
   },
   "scripts": {
-    "shun": "node index.js",
+    "gen": "node index.js",
     "hygen": "hygen"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goldenshun/shun.git"
+    "url": "git+https://github.com/seanconnollydev/gen.git"
   },
   "author": "Sean Connolly",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/goldenshun/shun/issues"
+    "url": "https://github.com/seanconnollydev/gen/issues"
   },
-  "homepage": "https://github.com/goldenshun/shun#readme",
+  "homepage": "https://github.com/seanconnollydev/gen#readme",
   "dependencies": {
     "execa": "^1.0.0",
     "hygen": "^1.6.2",

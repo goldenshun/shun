@@ -2,7 +2,7 @@
 to: package.json
 ---
 {
-  "name": "@goldenshun/<%= name %>",
+  "name": "<%= name %>",
   "version": "0.0.1",
   "description": "<%= name %>",
   "private": true,
@@ -18,11 +18,5 @@ to: package.json
     "lint": "eslint --ext .js .",
     "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/goldenshun/<%= name %>.git"
-  },
-  "author": "Sean Connolly",
   "license": "MIT",
-  "homepage": "https://github.com/goldenshun/<%= name %>#readme"
 }

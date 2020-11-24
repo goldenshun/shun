@@ -1,26 +1,26 @@
-# shun
-shun is my personal cli for many awesomes
+# @seanconnolly/gen
+`gen` is my personal cli for many awesomes
 
 # Usage
 
 ## Generating a NextJS static application
 
 1. Clone/create a new git repository
-2. Run one of the generator commands below  or `npx @goldenshun/shun nextjs ssr` in the root of the repository
+2. Run one of the generator commands below  or `npx @seanconnolly/gen nextjs ssr` in the root of the repository
 3. `npm i` to install dependencies
 4. `npm run dev` to make sure it's working
 
 ### Next.js + Fauna
-`npx @goldenshun/shun shun nextjs fauna`
+`npx @seanconnolly/gen nextjs fauna`
 
 ### Next.js + Fauna + Material UI
-`npx @goldenshun/shun shun nextjs fauna-mui`
+`npx @seanconnolly/gen nextjs fauna-mui`
 
 ### SSR Next.js (deprecated)
-`npx @goldenshun/shun nextjs ssr`
+`npx @seanconnolly/gen nextjs ssr`
 
 ### Static Next.js (deprecated)
-`npx @goldenshun/shun nextjs static`
+`npx @seanconnolly/gen nextjs static`
 
 ## Local testing
 `npm link`

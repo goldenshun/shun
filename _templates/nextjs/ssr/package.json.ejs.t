@@ -2,7 +2,7 @@
 to: package.json
 ---
 {
-  "name": "@goldenshun/<%= name %>",
+  "name": "@seanconnolly/<%= name %>",
   "version": "0.0.1",
   "description": "<%= description %>",
   "private": true,
@@ -15,11 +15,11 @@ to: package.json
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goldenshun/<%= name %>.git"
+    "url": "git+https://github.com/seanconnollydev/<%= name %>.git"
   },
   "author": "Sean Connolly",
   "license": "MIT",
-  "homepage": "https://github.com/goldenshun/<%= name %>#readme",
+  "homepage": "https://github.com/seanconnollydev/<%= name %>#readme",
   "dependencies": {
     "next": "9.3.0",
     "react": "16.13.0",
