@@ -18,5 +18,5 @@ to: package.json
     "lint": "eslint --ext .js .",
     "start": "next start"
   },
-  "license": "MIT",
+  "license": "MIT"
 }
