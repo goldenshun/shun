@@ -4,7 +4,7 @@ to: package.json
 {
   "name": "@goldenshun/<%= name %>",
   "version": "0.0.1",
-  "description": "<%= description %>",
+  "description": "<%= name %>",
   "private": true,
   "main": "index.js",
   "scripts": {

@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title key="title">abc</title>
+        <title key="title"><%= name %></title>
       </Head>
       <Component {...pageProps} />
     </>
