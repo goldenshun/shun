@@ -8,10 +8,10 @@ to: package.json
   "private": true,
   "main": "index.js",
   "scripts": {
-    "prebuild": "npm run build:gql",
+    "prebuild": "npm run gen:gql",
     "build": "next build",
-    "build:gql": "dotenv -c -- graphql-codegen",
-    "predev": "npm run build:gql",
+    "gen:gql": "dotenv -c -- graphql-codegen",
+    "predev": "npm run gen:gql",
     "dev": "next",
     "fauna": "fauna-gql",
     "fauna:override": "fauna-gql --override",

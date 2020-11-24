@@ -5,7 +5,7 @@ schema:
   - https://graphql.fauna.com/graphql:
       headers:
         Authorization: Bearer ${FAUNA_ACCESS_KEY_ADMIN}
-documents: "{components,lib}/**/*.{gql}"
+documents: "{components,lib}/**/*.graphql"
 generates:
   ./.gen/graphql.tsx:
     plugins:

@@ -10,4 +10,4 @@ const Example = {
   body: Query(Lambda([], Debug({ foo: "bar" }))),
 };
 
-export = Example;
+export default Example;

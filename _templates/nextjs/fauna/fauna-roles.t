@@ -18,4 +18,4 @@ const Public = {
   ],
 };
 
-export = Public;
+export default Public;
